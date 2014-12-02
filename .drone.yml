@@ -1,0 +1,7 @@
+image: ruby2.0.0
+script:
+  - sudo chown ubuntu:ubuntu /tmp/bundler
+  - bundle install --path=/tmp/bundler
+  - bundle exec middleman build --verbose
+cache:
+  - /tmp/bundler
