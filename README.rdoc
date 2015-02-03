@@ -16,4 +16,4 @@
 
     bundle exec mm-build
     
-4. test changes w/ drone
+4. test changes w/ drone all the time
