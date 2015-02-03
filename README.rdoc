@@ -16,3 +16,4 @@
 
     bundle exec mm-build
     
+4. test
